@@ -8,7 +8,7 @@
         <!-- lg:card--1 -->
         <div class="relative lg:card flex justify-center flex-col items-center md:py-0 lg:py-0">
             <div class='flex items-center justify-center'>
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/AssetsS/Landing/Servicios_IMG-Comunicacion.webp" 
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Servicios_IMG-Comunicacion.webp" 
                     alt="Comunicación creativa"
                     class='object-cover w-full h-[300px] lg:h-[350px] relative' />
             </div>
@@ -21,7 +21,7 @@
         <!-- lg:card--2 -->
         <div class="relative lg:card flex justify-center flex-col items-center md:py-0 lg:py-0">
             <div class='flex items-center justify-center'>
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/AssetsS/Landing/Servicios_IMG-Performance.webp" 
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Servicios_IMG-Performance.webp" 
                     alt="Performance Marketing"
                     class='object-cover w-full h-[300px] lg:h-[350px] relative' />
             </div>
@@ -34,7 +34,7 @@
         <!-- lg:card--3 -->
         <div class="relative lg:card flex justify-center flex-col items-center md:py-0 lg:py-0">
             <div class='flex items-center justify-center'>
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/AssetsS/Landing/Servicios_IMG-Eventos.webp" 
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Servicios_IMG-Eventos.webp" 
                     alt="Eventos"
                     class='object-cover w-full h-[300px] lg:h-[350px] relative' />
             </div>
@@ -47,7 +47,7 @@
         <!-- lg:card--4 -->
         <div class="relative lg:card flex justify-center flex-col items-center md:py-0 lg:py-0">
             <div class='flex items-center justify-center'>
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/AssetsS/Landing/Servicios_IMG-Produccion.webp" 
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Servicios_IMG-Produccion.webp" 
                     alt="Producción Audiovisual"
                     class='object-cover w-full h-[300px] lg:h-[350px] relative' />
             </div>
