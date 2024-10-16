@@ -55,8 +55,8 @@ Template Name: Home
         <?php include 'contacto.php'?>
         <!--Services-->
         <?php include 'services.php'; ?>
-        <!--Hero-->
-        <?php include 'hero.php'; ?>
+        <!--brands-->
+        <?php include 'brands.php'; ?>
         <!--Testimonios-->
         <?php include 'testimonials.php'?>
         <!--Call-->

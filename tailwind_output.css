@@ -662,6 +662,22 @@ video {
   margin-top: 3rem;
 }
 
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mb-\[\] {
+  margin-bottom: ;
+}
+
+.mb-\[1rem\] {
+  margin-bottom: 1rem;
+}
+
+.mt-\[4rem\] {
+  margin-top: 4rem;
+}
+
 .block {
   display: block;
 }
@@ -680,6 +696,10 @@ video {
 
 .h-12 {
   height: 3rem;
+}
+
+.h-48 {
+  height: 12rem;
 }
 
 .h-8 {
@@ -704,6 +724,10 @@ video {
 
 .h-auto {
   height: auto;
+}
+
+.h-\[270px\] {
+  height: 270px;
 }
 
 .max-h-\[2\.5rem\] {
@@ -736,6 +760,10 @@ video {
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -878,6 +906,16 @@ video {
   padding-bottom: 5rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .pb-\[1rem\] {
   padding-bottom: 1rem;
 }
@@ -908,6 +946,10 @@ video {
 
 .pt-\[8rem\] {
   padding-top: 8rem;
+}
+
+.pb-\[3rem\] {
+  padding-bottom: 3rem;
 }
 
 .text-left {
@@ -968,12 +1010,30 @@ video {
   line-height: 1.75rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-\[3rem\] {
+  font-size: 3rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
 .font-extrabold {
   font-weight: 800;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .font-semibold {
@@ -984,6 +1044,26 @@ video {
   line-height: 1.25;
 }
 
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-\[\] {
+  line-height: ;
+}
+
+.leading-\[0\.p\] {
+  line-height: 0.p;
+}
+
+.leading-\[0\.9\] {
+  line-height: 0.9;
+}
+
+.leading-\[1\] {
+  line-height: 1;
+}
+
 .text-\[\#fff\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -992,6 +1072,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
 }
 
 .no-underline {
@@ -1054,6 +1138,10 @@ video {
     height: 500px;
   }
 
+  .md\:h-auto {
+    height: auto;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -1064,6 +1152,10 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:justify-end {
+    justify-content: flex-end;
   }
 
   .md\:bg-\[url\(\'http\:\/\/159\.223\.204\.188\/wp-content\/themes\/Consthera\/assets\/images\/contact_frame\.png\'\)\] {
@@ -1089,6 +1181,14 @@ video {
     padding-top: 12rem;
   }
 
+  .md\:pt-\[15rem\] {
+    padding-top: 15rem;
+  }
+
+  .md\:text-left {
+    text-align: left;
+  }
+
   .md\:text-\[1\.7rem\] {
     font-size: 1.7rem;
   }
@@ -1104,6 +1204,32 @@ video {
   .md\:text-\[60px\] {
     font-size: 60px;
   }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-\[50px\] {
+    font-size: 50px;
+  }
+
+  .md\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .md\:text-\[45px\] {
+    font-size: 45px;
+  }
+
+  .md\:text-\[3rem\] {
+    font-size: 3rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1116,12 +1242,72 @@ video {
     height: 350px;
   }
 
+  .lg\:h-\[250px\] {
+    height: 250px;
+  }
+
+  .lg\:h-\[150px\] {
+    height: 150px;
+  }
+
+  .lg\:h-\[200px\] {
+    height: 200px;
+  }
+
+  .lg\:h-\[180px\] {
+    height: 180px;
+  }
+
+  .lg\:h-\[190px\] {
+    height: 190px;
+  }
+
+  .lg\:h-\[2790px\] {
+    height: 2790px;
+  }
+
+  .lg\:h-\[270px\] {
+    height: 270px;
+  }
+
+  .lg\:h-\[2700px\] {
+    height: 2700px;
+  }
+
+  .lg\:h-\[2px\] {
+    height: 2px;
+  }
+
+  .lg\:h-\[205px\] {
+    height: 205px;
+  }
+
+  .lg\:h-\[305px\] {
+    height: 305px;
+  }
+
+  .lg\:h-\[310px\] {
+    height: 310px;
+  }
+
+  .lg\:h-\[307px\] {
+    height: 307px;
+  }
+
   .lg\:max-w-\[1020px\] {
     max-width: 1020px;
   }
 
   .lg\:max-w-\[900px\] {
     max-width: 900px;
+  }
+
+  .lg\:max-w-\[00px\] {
+    max-width: 00px;
+  }
+
+  .lg\:max-w-\[1200px\] {
+    max-width: 1200px;
   }
 
   .lg\:grid-cols-4 {
@@ -1134,6 +1320,10 @@ video {
 
   .lg\:gap-\[3rem\] {
     gap: 3rem;
+  }
+
+  .lg\:gap-\[5rem\] {
+    gap: 5rem;
   }
 
   .lg\:py-0 {

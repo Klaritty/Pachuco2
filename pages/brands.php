@@ -4,10 +4,10 @@
          src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Clientes_CirculoFondo.webp" />
     
     <div class='pb-[6rem] pt-[6rem] container mx-auto relative z-10'>
-        <h1 class='text-center pb-[2rem] font-Montse text-[40px] mp:text-[60px] mx-auto w-[90%] mp:w-[70%] text-white'>Hemos compartido la pista de baile con ellos.</h1>
+        <h1 class='text-center pb-[2rem] font-Montse text-[30px] md:text-[40px] mx-auto w-[90%] mp:w-[70%] text-white'>Hemos compartido la pista de baile con ellos.</h1>
         
         <!-- Carrusel -->
-        <div id="carrusel" class="relative w-full overflow-hidden mb-[3rem]">
+        <div id="carrusel" class="relative w-full overflow-hidden mt-[2rem] mb-[3rem]">
             <div class="carousel-container flex" id="carousel-container">
                 <!-- Imágenes del carrusel -->
                 <img class='h-auto max-h-[2.5rem] object-contain mx-4' alt='Adidas' 

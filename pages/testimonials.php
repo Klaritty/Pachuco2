@@ -4,31 +4,31 @@
         <div class="carousel-container-testimonios flex" id="carousel-container-testimonios">
             <!-- Testimonio 1 -->
             <div class="testimonial-slide flex w-full">
-                <div class="w-1/2">
-                    <img class="object-cover" alt="Testimonio 1"
+                <div class="w-full md:w-1/2">
+                    <img class="object-cover md:h-auto h-48 w-full" alt="Testimonio 1"
                         src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_IMG.webp" />
                 </div>
-                <div class="w-1/2 flex items-center justify-center text-white text-right p-4">
+                <div class="w-full md:w-1/2 flex items-center justify-center text-white text-right p-4">
                     <p>“Nos encanta colaborar con el equipo de Pachuco, siempre listos para aceptar los desafíos que les planteamos. Son creativos, comprometidos y alineados con las necesidades digitales de nuestro mercado. Valoramos mucho su apoyo en la comunicación de nuestros libros.”</p>
                 </div>
             </div>
             <!-- Testimonio 2 -->
             <div class="testimonial-slide flex w-full">
-                <div class="w-1/2">
-                    <img class="object-cover" alt="Testimonio 2"
+                <div class="w-full md:w-1/2">
+                    <img class="object-cover md:h-auto h-48 w-full" alt="Testimonio 2"
                         src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_IMG.webp" />
                 </div>
-                <div class="w-1/2 flex items-center justify-center text-white text-right p-4">
+                <div class="w-full md:w-1/2 flex items-center justify-center text-white text-right p-4">
                     <p>“Desde el primer día pudimos bajar el concepto y propuesta gráfica para nuestra marca logrando obtener muy buenos comentarios de manera interna y externa. Siempre nos han apoyado en las peticiones de proyectos y están al tanto de las tendencias o que puede funcionar para la compañía. Seguimos trabajando para crecer y mi intención es llegar a competir en algún Premio de Diseño o Publicidad.”</p>
                 </div>
             </div>
             <!-- Testimonio 3 -->
             <div class="testimonial-slide flex w-full">
-                <div class="w-1/2">
-                    <img class="object-cover" alt="Testimonio 3"
+                <div class="w-full md:w-1/2">
+                    <img class="object-cover md:h-auto h-48 w-full" alt="Testimonio 3"
                         src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_IMG.webp" />
                 </div>
-                <div class="w-1/2 flex items-center justify-center text-white text-right p-4">
+                <div class="w-full md:w-1/2 flex items-center justify-center text-white text-right p-4">
                     <p>“He tenido el placer de trabajar con ‘Pachuco’ en el desarrollo de diversas campañas digitales para diferentes marcas del portafolio de la Compañía. Pachuco ha demostrado ser un socio excelente en todos los aspectos del proceso creativo y de ejecución. El equipo de ‘Pachuco’ es altamente profesional, creativo y eficiente, siempre entregando proyectos de alta calidad dentro de los plazos establecidos. Su capacidad para entender nuestras necesidades y transformarlas en estrategias digitales efectivas ha sido fundamental para el éxito de nuestras marcas. Recomendaría sin duda a Pachuco para cualquier empresa que busque el desarrollo de campañas digitales innovadoras y efectivas. Su dedicación y conocimiento en el campo de la publicidad digital los convierte en un valioso aliado para alcanzar cualquier objetivo.”</p>
                 </div>
             </div>
@@ -53,6 +53,8 @@
         flex: 0 0 100%;
         display: flex;
         align-items: center;
+        justify-content: center; /* Centrando verticalmente en la pantalla */
+        text-align: center; /* Centrar texto */
     }
 
     .carousel-container-testimonios img {
@@ -62,6 +64,26 @@
 
     button {
         cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+        .testimonial-slide {
+            flex-direction: column; /* Cambiar la dirección a columna en móviles */
+            justify-content: center; /* Centrando verticalmente en la pantalla */
+            min-height: 100vh; /* Asegurar que ocupa toda la altura de la pantalla */
+            padding: 20px 0; /* Agregar un poco de espacio en la parte superior e inferior */
+        }
+
+        .testimonial-slide img {
+            height: auto; /* Mantener la proporción de la imagen */
+            width: 100%; /* Asegurarse de que la imagen ocupe el ancho completo */
+            max-height: 200px; /* Ajustar la altura máxima de la imagen */
+            object-fit: contain; /* Asegurar que la imagen no se recorte */
+        }
+
+        .testimonial-slide p {
+            text-align: center; /* Centrar el texto en móviles */
+        }
     }
 </style>
 

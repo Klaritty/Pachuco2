@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+
 /* Quitar padding del contenedor del formulario */
 .nf-form-content {
     padding: 0!important;
@@ -14,6 +16,7 @@
     padding: 10px!important; /* Padding interno */
     font-size: 16px!important; /* Texto más grande */
     width: 100%!important; /* Ancho completo */
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -26,6 +29,7 @@
     background-color: #000000!important; /* Fondo negro */
     margin-bottom: 20px!important; /* Espacio inferior */
     border: 1px solid white!important; /* Borde blanco */
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Ocultar contenido antes del formulario */
@@ -45,77 +49,81 @@
     margin-bottom: 5px!important; /* Espacio entre campos */
 }
 
-/* Estilo del select */
-#nf-field-6 {
-    height: 50px!important; /* Altura del select */
-    color: black!important; /* Texto negro */
-    border-radius: 35px!important; /* Bordes redondeados */
-    padding: 10px!important; /* Padding interno */
-    width: 100%!important; /* Ancho completo */
-    background-color: #FFFFFF!important; /* Fondo blanco */
-   
-}
 
-/* Eliminar el estilo por defecto del select */
-.nf-form-content select {
-    background-color: #FFFFFF!important; /* Fondo blanco */
-    padding: 10px; /* Padding interno */
-    border-radius: 35px !important; /* Bordes redondeados */
+#nf-field-6-wrap > .nf-field-elemt{
+    background: #000;
 }
 
 /* Estilo del botón Enviar */
+/* Aumentar margen inferior del botón Enviar */
 #nf-field-4 {
     height: 50px!important; /* Altura del botón igual a los inputs */
-    margin-top: 5px!important;
+    margin-top: 2rem!important;
+    margin-bottom: 20px!important; /* Aumentar el margen inferior */
     padding: 5px 40px!important; /* Padding interno */
-    background-color: #56d600a2!important; /* Fondo personalizado */
+    background-color: rgb(34 197 94)!important; /* Fondo personalizado */
     color: white!important; /* Texto blanco */
-    border-radius: 20px!important; /* Bordes ligeramente redondeados */
+    border-radius: 10px!important; /* Bordes ligeramente redondeados */
     border: none!important; /* Sin borde */
     width: 100%!important; /* Ancho completo */
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+#nf-field-4:hover {
+    height: 50px!important; /* Altura del botón igual a los inputs */
+    margin-top: 2rem!important;
+    margin-bottom: 20px!important; /* Aumentar el margen inferior */
+    padding: 5px 40px!important; /* Padding interno */
+    background-color:  #16a34a!important; /* Fondo personalizado */
+    color: white!important; /* Texto blanco */
+    border-radius: 10px!important; /* Bordes ligeramente redondeados */
+    border: none!important; /* Sin borde */
+    width: 100%!important; /* Ancho completo */
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
 
 /* Estilo del checkbox */
 #nf-field-7 {
-    display: none; /* Ocultar checkbox original */
+    display: none; 
+    margin-bottom: 1rem;
 }
 
-/* Crear un cuadro antes del label */
 .checkbox-container.label-right label::before {
-    content: ""; /* Crear un cuadro antes del label */
-    left:  -15% !important; /* Alinear a la izquierda */
-    top: 100%; /* Centrar verticalmente */
-    width: 23px; /* Ancho del cuadro */
-    height: 23px; /* Altura del cuadro */
+    content: ""; 
+    padding-left: 0.4rem;
+    top: 100%; 
+    width: 23px; 
+    height: 23px; 
     color: white !important;
     font-size: medium !important;
     font-weight: 400 !important;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .checkbox-container.label-right label::after {
-    content: ""; /* Crear un cuadro antes del label */
-    top: 50%; /* Centrar verticalmente */
-    width: 23px !important; /* Ancho del cuadro */
-    height: 23px !important; /* Altura del cuadro */
-    border: 2px solid red !important; /* Borde rojo */
-    border-radius: 5px; /* Bordes ligeramente redondeados */
-    background-color: red !important; /* Fondo transparente inicialmente */
+    content: ""; 
+   margin-bottom: 1rem;
+    top: 50%; 
+    width: 23px !important;
+    height: 23px !important; 
+    border: 2px solid red !important; 
+    border-radius: 5px; 
+    background-color: red !important; 
+    font-family: 'Montserrat', sans-serif;
 }
 
 
 
 /* Ajustar el símbolo de requerido */
 .ninja-forms-req-symbol {
-    color: #e20101 !important; /* Color personalizado */
+    display: none; 
 }
-
-
-
 /* Ocultar símbolo de campo requerido */
 .ninja-forms-req-symbol {
-    color: #e20101!important; /* Color personalizado */
+    display: none; 
 }
 
 /* Ocultar título del formulario */
@@ -135,4 +143,47 @@
 /* Ajustar el símbolo de requerido */
 .nf-pass.field-wrap .nf-field-element:after {
     display: none!important; /* Ocultar símbolo de requerido */
+}
+
+/* Estilo del select */
+
+.nf-form-content .list-select-wrap .nf-field-element {
+    background: #889701; 
+    border-radius: 10px; 
+    margin-bottom: 1rem;
+}
+
+.nf-form-content .list-select-wrap .nf-field-element select {
+    background: transparent; 
+    border-radius: 10px; 
+    color: #000; 
+    padding: 10px; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
+.nf-form-content .list-select-wrap .nf-field-element > div {
+    background: transparent; 
+    border: none; 
+}
+
+
+.nf-form-content .list-select-wrap .nf-field-element input:not([type=button]),
+.nf-form-content .list-select-wrap .nf-field-element textarea {
+    background: transparent; 
+    border-radius: 0; 
+    color: #787878; 
+    transition: all .5s; 
+}
+
+
+.nf-form-content .list-select-wrap .nf-field-element > div {
+    background: transparent !important; 
+    border: none !important; 
+}
+
+.nf-form-content .list-select-wrap .nf-field-element div {
+    background: transparent; 
+    border: none; 
 }
