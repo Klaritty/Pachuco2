@@ -37,7 +37,7 @@ Template Name: Thank You
         </div>
 
         <!-- Texto principal en el centro -->
-        <div class="pt-[11rem] text-center">
+        <div class="pt-[6rem] text-center">
             <h1 class="text-4xl md:text-5xl text-white font-Montse font-bold mb-20">
                 <span class="text-red-500">¡GRACIAS</span> POR QUERER
                 <span class="text-red-500"> BAILAR</span><br>
