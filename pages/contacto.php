@@ -2,7 +2,7 @@
   <div class="px-5 py-[3rem] lg:max-w-[1200px] lg:mx-auto">
     <div class="flex flex-col md:flex-row gap-[3rem] lg:gap-[3rem] md:h-[500px]">
       <!-- Sección de textos (izquierda) -->
-      <div class="md:pt-[15rem] px-[2rem] flex flex-col mb-[2rem] md:w-1/2 bg-cover bg-no-repeat bg-center md:bg-[url('http://159.223.204.188/wp-content/themes/Consthera/assets/images/contact_frame.png')]">
+      <div class="md:pt-[15rem] px-[2rem] flex flex-col mb-[2rem] md:w-1/2 bg-cover bg-no-repeat bg-center">
         <div class="mb-[2rem]">
           <h1 class="text-left font-extrabold font-Montse text-white md:text-[3rem] leading-[1]">GENERAMOS IDEAS QUE EMOCIONAN</h1>
           <p class="text-white font-Montse text-[30px] text-left">¡Únete a la pista de baile!</p>

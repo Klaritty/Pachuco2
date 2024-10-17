@@ -9,13 +9,13 @@
 
         <!-- Redes sociales -->
         <div class="flex justify-between w-1/2">
-            <a href="https://facebook.com" target="_blank" class="text-white">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Footer_Icon_Web.webp" alt="Facebook" class="h-8">
+            <a href="http://www.pachucodigital.com" target="_blank" class="text-white">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Footer_Icon_Web.webp" alt="web" class="h-8">
             </a>
-            <a href="https://instagram.com" target="_blank" class="text-white">
+            <a href="https://www.instagram.com/pachucolens/" target="_blank" class="text-white">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Footer_Icon_Instagram.webp" alt="Instagram" class="h-8">
             </a>
-            <a href="https://linkedin.com" target="_blank" class="text-white">
+            <a href="https://www.linkedin.com/company/pachuco-digital/mycompany/" target="_blank" class="text-white">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Footer_Icon_Linkedin.webp" alt="LinkedIn" class="h-8">
             </a>
         </div>

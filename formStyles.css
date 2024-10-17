@@ -10,7 +10,7 @@
     height: 50px!important; /* Altura de los inputs */
     background-color: #000000!important; /* Fondo negro */
     color: white!important; /* Texto blanco */
-    border: 1px solid white!important; /* Borde blanco */
+    border: 1px solid #d3c018!important; /* Borde blanco */
     border-radius: 5px!important; /* Bordes ligeramente redondeados */
     margin-bottom: 10px!important; /* Espacio inferior */
     padding: 10px!important; /* Padding interno */
@@ -148,7 +148,7 @@
 /* Estilo del select */
 
 .nf-form-content .list-select-wrap .nf-field-element {
-    background: #889701; 
+    background: #d3c018; 
     border-radius: 10px; 
     margin-bottom: 1rem;
 }
