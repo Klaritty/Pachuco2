@@ -10,10 +10,10 @@
             <div class='flex items-center justify-center'>
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Servicios_IMG-Comunicacion.webp" 
                     alt="Comunicación creativa"
-                    class='object-cover w-full  h-[270px] relative' />
+                    class='object-cover w-full h-[270px] relative' />
             </div>
-            <div class='absolute left-0 right-0 p-4 mt-[12rem] bg-opacity-60 bg-black  md:text-left text-center'>
-                <h3 class="text-[#fff] font-Montse text-[20px] lg:text-[28px] font-semibold mb-2 leading-tight">Comunicación creativa</h3>
+            <div class='absolute left-0 right-0 p-4 top-[16rem] md:text-left text-center'>
+                <h3 class="text-[#fff] font-Montse text-[15px] lg:text-[20px] font-semibold mb-2 leading-tight uppercase">Comunicación creativa</h3>
                 <p class="text-[#fff] font-Montse text-[12px] lg:text-[14px] leading-tight">Campañas creativas para posicionar marcas, productos y servicios.</p>
             </div>
         </div>
@@ -25,8 +25,8 @@
                     alt="Performance Marketing"
                     class='object-cover w-full h-[300px] lg:h-[350px] relative' />
             </div>
-            <div class='absolute left-0 right-0 p-4 mt-[12rem] bg-opacity-60 bg-black  md:text-left text-center'>
-                <h3 class="text-[#fff] font-Montse text-[20px] lg:text-[28px] font-semibold mb-2 leading-tight">Performance Marketing</h3>
+            <div class='absolute left-0 right-0 p-4 top-[16rem] md:text-left text-center'>
+                <h3 class="text-[#fff] font-Montse text-[15px] lg:text-[20px] font-semibold mb-2 leading-tight uppercase">Performance Marketing</h3>
                 <p class="text-[#fff] font-Montse text-[12px] lg:text-[14px] leading-tight">Todo lo necesario para lograr una conversión digital. Leads, registros y descargas.</p>
             </div>
         </div>
@@ -38,8 +38,8 @@
                     alt="Eventos"
                     class='object-cover w-full h-[300px] lg:h-[350px] relative' />
             </div>
-            <div class='absolute left-0 right-0 p-4 mt-[12rem] bg-opacity-60 bg-black  md:text-left text-center'>
-                <h3 class="text-[#fff] font-Montse text-[20px] lg:text-[28px] font-semibold mb-2 leading-tight">Eventos</h3>
+            <div class='absolute left-0 right-0 p-4 top-[16rem] md:text-left text-center'>
+                <h3 class="text-[#fff] font-Montse text-[15px] lg:text-[20px] font-semibold mb-2 leading-tight uppercase">Eventos</h3>
                 <p class="text-[#fff] font-Montse text-[12px] lg:text-[14px] leading-tight">Conectamos con diversas audiencias a través de eventos corporativos, de incentivos y sociales.</p>
             </div>
         </div>
@@ -51,8 +51,8 @@
                     alt="Producción Audiovisual"
                     class='object-cover w-full h-[300px] lg:h-[307px] relative' />
             </div>
-            <div class='absolute left-0 right-0 p-4 mt-[12rem] bg-opacity-60 bg-black  md:text-left text-center'>
-                <h3 class="text-[#fff] font-Montse text-[20px] lg:text-[28px] font-semibold mb-2 leading-tight">Producción Audiovisual</h3>
+            <div class='absolute left-0 right-0 p-4 top-[16rem] md:text-left text-center'>
+                <h3 class="text-[#fff] font-Montse text-[15px] lg:text-[20px] font-semibold mb-2 leading-tight uppercase">Producción Audiovisual</h3>
                 <p class="text-[#fff] font-Montse text-[12px] lg:text-[14px] leading-tight">Contenidos impactantes para conectar marcas con su audiencia, a través de videos, animaciones y fotografía profesional.</p>
             </div>
         </div>

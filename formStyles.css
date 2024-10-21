@@ -10,8 +10,8 @@
     height: 50px!important; /* Altura de los inputs */
     background-color: #000000!important; /* Fondo negro */
     color: white!important; /* Texto blanco */
-    border: 1px solid #d3c018!important; /* Borde blanco */
-    border-radius: 5px!important; /* Bordes ligeramente redondeados */
+    border: 0.5px solid #ffdd96!important; /* Borde blanco */
+    border-radius: 10px!important; /* Bordes ligeramente redondeados */
     margin-bottom: 10px!important; /* Espacio inferior */
     padding: 10px!important; /* Padding interno */
     font-size: 16px!important; /* Texto más grande */
@@ -54,34 +54,36 @@
     background: #000;
 }
 
-/* Estilo del botón Enviar */
-/* Aumentar margen inferior del botón Enviar */
 #nf-field-4 {
     height: 50px!important; /* Altura del botón igual a los inputs */
     margin-top: 2rem!important;
     margin-bottom: 20px!important; /* Aumentar el margen inferior */
     padding: 5px 40px!important; /* Padding interno */
-    background-color: rgb(34 197 94)!important; /* Fondo personalizado */
+    background: linear-gradient(90deg, #009245, #39b54a)!important; /* Fondo personalizado */
     color: white!important; /* Texto blanco */
-    border-radius: 10px!important; /* Bordes ligeramente redondeados */
+    border-radius: 25px!important; /* Bordes ligeramente redondeados */
     border: none!important; /* Sin borde */
     width: 100%!important; /* Ancho completo */
     font-weight: bold;
+    font-size: 30px!important; /* Tamaño de fuente más grande */
     font-family: 'Montserrat', sans-serif;
 }
+
 #nf-field-4:hover {
     height: 50px!important; /* Altura del botón igual a los inputs */
     margin-top: 2rem!important;
     margin-bottom: 20px!important; /* Aumentar el margen inferior */
     padding: 5px 40px!important; /* Padding interno */
-    background-color:  #16a34a!important; /* Fondo personalizado */
+    background: linear-gradient(90deg, #009245, #39b54a)!important; /* Fondo personalizado */
     color: white!important; /* Texto blanco */
-    border-radius: 10px!important; /* Bordes ligeramente redondeados */
+    border-radius: 25px!important; /* Bordes ligeramente redondeados */
     border: none!important; /* Sin borde */
     width: 100%!important; /* Ancho completo */
     font-weight: bold;
+    font-size: 30px!important; /* Tamaño de fuente más grande en hover */
     font-family: 'Montserrat', sans-serif;
 }
+
 
 
 
@@ -109,9 +111,9 @@
     top: 50%; 
     width: 23px !important;
     height: 23px !important; 
-    border: 2px solid red !important; 
+    border: 2px solid #ce3a3a !important; 
     border-radius: 5px; 
-    background-color: red !important; 
+    background-color: #ce3a3a !important; 
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -140,15 +142,16 @@
     display: none!important; /* Ocultar mensaje de error */
 }
 
-/* Ajustar el símbolo de requerido */
-.nf-pass.field-wrap .nf-field-element:after {
-    display: none!important; /* Ocultar símbolo de requerido */
-}
+/* Ajustar el símbolo de requerido 
+    .nf-pass.field-wrap .nf-field-element:after {
+        display: none!important; 
+    }
+        */
 
 /* Estilo del select */
 
 .nf-form-content .list-select-wrap .nf-field-element {
-    background: #d3c018; 
+    background: white; 
     border-radius: 10px; 
     margin-bottom: 1rem;
 }

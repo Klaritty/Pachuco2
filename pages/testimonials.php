@@ -10,16 +10,16 @@
                 </div>
                 <div class="w-full md:w-1/2 flex flex-col items-center justify-center text-white text-right p-4">
                     <!-- Comillas de apertura -->
-                    <svg width="50" height="50" fill="white" class="mb-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-                        <path d="M24 20c-6.627 0-12 5.373-12 12 0 1.853.421 3.604 1.17 5.172L8 48h10l5.03-10.06A12.03 12.03 0 0 0 36 32c0-6.627-5.373-12-12-12zm24 0c-6.627 0-12 5.373-12 12 0 1.853.421 3.604 1.17 5.172L32 48h10l5.03-10.06A12.03 12.03 0 0 0 60 32c0-6.627-5.373-12-12-12z"></path>
-                    </svg>
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_Comillas_abre.webp" 
+                    alt="Comilla abre"
+                    class='object-cover w-[30px] h-[30px] relative' />
 
                     <p>“Nos encanta colaborar con el equipo de Pachuco, siempre listos para aceptar los desafíos que les planteamos. Son creativos, comprometidos y alineados con las necesidades digitales de nuestro mercado. Valoramos mucho su apoyo en la comunicación de nuestros libros.”</p>
 
                     <!-- Comillas de cierre -->
-                    <svg width="50" height="50" fill="white" class="mt-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-                        <path d="M24 44c6.627 0 12-5.373 12-12 0-1.853-.421-3.604-1.17-5.172L36 16H26l-5.03 10.06A12.03 12.03 0 0 1 8 32c0 6.627 5.373 12 12 12zm24 0c6.627 0 12-5.373 12-12 0-1.853-.421-3.604-1.17-5.172L60 16H50l-5.03 10.06A12.03 12.03 0 0 1 32 32c0 6.627 5.373 12 12 12z"></path>
-                    </svg>
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_Comillas_cierre.webp" 
+                    alt="Comilla cierre"
+                    class='object-cover w-[30px] h-[30px] relative' />
                 </div>
             </div>
 
@@ -31,16 +31,16 @@
                 </div>
                 <div class="w-full md:w-1/2 flex flex-col items-center justify-center text-white text-right p-4">
                     <!-- Comillas de apertura -->
-                    <svg width="50" height="50" fill="white" class="mb-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-                        <path d="M24 20c-6.627 0-12 5.373-12 12 0 1.853.421 3.604 1.17 5.172L8 48h10l5.03-10.06A12.03 12.03 0 0 0 36 32c0-6.627-5.373-12-12-12zm24 0c-6.627 0-12 5.373-12 12 0 1.853.421 3.604 1.17 5.172L32 48h10l5.03-10.06A12.03 12.03 0 0 0 60 32c0-6.627-5.373-12-12-12z"></path>
-                    </svg>
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_Comillas_abre.webp" 
+                    alt="Comilla cierre"
+                    class='object-cover w-[30px] h-[30px] relative' />
 
                     <p>“Desde el primer día pudimos bajar el concepto y propuesta gráfica para nuestra marca logrando obtener muy buenos comentarios de manera interna y externa...”</p>
 
                     <!-- Comillas de cierre -->
-                    <svg width="50" height="50" fill="white" class="mt-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-                        <path d="M24 44c6.627 0 12-5.373 12-12 0-1.853-.421-3.604-1.17-5.172L36 16H26l-5.03 10.06A12.03 12.03 0 0 1 8 32c0 6.627 5.373 12 12 12zm24 0c6.627 0 12-5.373 12-12 0-1.853-.421-3.604-1.17-5.172L60 16H50l-5.03 10.06A12.03 12.03 0 0 1 32 32c0 6.627 5.373 12 12 12z"></path>
-                    </svg>
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_Comillas_cierre.webp" 
+                    alt="Comilla cierre"
+                    class='object-cover w-[30px] h-[30px] relative' />
                 </div>
             </div>
 
@@ -52,16 +52,16 @@
                 </div>
                 <div class="w-full md:w-1/2 flex flex-col items-center justify-center text-white text-right p-4">
                     <!-- Comillas de apertura -->
-                    <svg width="50" height="50" fill="white" class="mb-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-                        <path d="M24 20c-6.627 0-12 5.373-12 12 0 1.853.421 3.604 1.17 5.172L8 48h10l5.03-10.06A12.03 12.03 0 0 0 36 32c0-6.627-5.373-12-12-12zm24 0c-6.627 0-12 5.373-12 12 0 1.853.421 3.604 1.17 5.172L32 48h10l5.03-10.06A12.03 12.03 0 0 0 60 32c0-6.627-5.373-12-12-12z"></path>
-                    </svg>
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_Comillas_abre.webp" 
+                    alt="Comilla cierre"
+                    class='object-cover w-[30px] h-[30px] relative' />
 
                     <p>“He tenido el placer de trabajar con ‘Pachuco’ en el desarrollo de diversas campañas digitales para diferentes marcas...”</p>
 
                     <!-- Comillas de cierre -->
-                    <svg width="50" height="50" fill="white" class="mt-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-                        <path d="M24 44c6.627 0 12-5.373 12-12 0-1.853-.421-3.604-1.17-5.172L36 16H26l-5.03 10.06A12.03 12.03 0 0 1 8 32c0 6.627 5.373 12 12 12zm24 0c6.627 0 12-5.373 12-12 0-1.853-.421-3.604-1.17-5.172L60 16H50l-5.03 10.06A12.03 12.03 0 0 1 32 32c0 6.627 5.373 12 12 12z"></path>
-                    </svg>
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_Comillas_cierre.webp" 
+                    alt="Comilla cierre"
+                    class='object-cover w-[30px] h-[30px] relative' />
                 </div>
             </div>
         </div>

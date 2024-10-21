@@ -1,5 +1,6 @@
-<section id='contacto' class="bg-[#000] pt-[7rem] bg-cover h bg-no-repeat bg-center" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Header_IMG.webp');">
-  <div class="px-5 py-[3rem] lg:max-w-[1200px] lg:mx-auto">
+<section id='contacto' class="bg-[#000] bg-cover h bg-no-repeat bg-center" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Header_IMG.webp');">
+  <div class="px-5 py-[2rem] lg:max-w-[1200px] lg:mx-auto">
+    <img class='w-auto h-[4rem] mb-[3rem]' alt='cosnthera' src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Header_Logo.webp" />
     <div class="flex flex-col md:flex-row gap-[3rem] lg:gap-[3rem] md:h-[500px]">
       <!-- Sección de textos (izquierda) -->
       <div class="md:pt-[15rem] px-[2rem] flex flex-col mb-[2rem] md:w-1/2 bg-cover bg-no-repeat bg-center">
@@ -11,7 +12,6 @@
 
       <!-- Sección del logo y formulario (derecha) -->
       <div class="md:w-1/2 mb-[6rem] flex flex-col items-center justify-center mt-[4rem]"> <!-- Ajuste de mt aquí -->
-        <img class='w-auto h-[4rem] mb-[3rem]' alt='cosnthera' src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Header_Logo.webp" />
         <h1 class="font-normal mb-[2rem] font-Montse text-center text-white md:text-[1.7rem]">Somos tu próxima <br> agencia creativa</h1>
         <?php echo do_shortcode('[ninja_form id=1]'); ?>
       </div>
