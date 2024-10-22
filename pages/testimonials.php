@@ -1,6 +1,6 @@
 <section id="testimonios" class="bg-black relative flex items-center justify-center">
     <!-- Carrusel de testimonios -->
-    <div id="carrusel-testimonios" class="relative container mx-auto overflow-hidden mb-[3rem]">
+    <div id="carrusel-testimonios" class="relative lg:max-w-[1200px] container mx-auto overflow-hidden mb-[3rem]">
         <div class="carousel-container-testimonios flex" id="carousel-container-testimonios">
             <!-- Testimonio 1 -->
             <div class="testimonial-slide flex w-full">
@@ -12,14 +12,14 @@
                     <!-- Comillas de apertura -->
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_Comillas_abre.webp" 
                     alt="Comilla abre"
-                    class='object-cover w-[30px] h-[30px] relative' />
+                    class='object-cover w-[30px] h-[30px] mb-[2rem] relative' />
 
                     <p>“Nos encanta colaborar con el equipo de Pachuco, siempre listos para aceptar los desafíos que les planteamos. Son creativos, comprometidos y alineados con las necesidades digitales de nuestro mercado. Valoramos mucho su apoyo en la comunicación de nuestros libros.”</p>
 
                     <!-- Comillas de cierre -->
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_Comillas_cierre.webp" 
                     alt="Comilla cierre"
-                    class='object-cover w-[30px] h-[30px] relative' />
+                    class='object-cover w-[30px] h-[30px] mt-[2rem] relative' />
                 </div>
             </div>
 
@@ -33,14 +33,14 @@
                     <!-- Comillas de apertura -->
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_Comillas_abre.webp" 
                     alt="Comilla cierre"
-                    class='object-cover w-[30px] h-[30px] relative' />
+                    class='object-cover w-[30px] h-[30px] mb-[2rem] relative' />
 
                     <p>“Desde el primer día pudimos bajar el concepto y propuesta gráfica para nuestra marca logrando obtener muy buenos comentarios de manera interna y externa...”</p>
 
                     <!-- Comillas de cierre -->
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_Comillas_cierre.webp" 
                     alt="Comilla cierre"
-                    class='object-cover w-[30px] h-[30px] relative' />
+                    class='object-cover w-[30px] h-[30px] mt-[2rem] relative' />
                 </div>
             </div>
 
@@ -54,14 +54,14 @@
                     <!-- Comillas de apertura -->
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_Comillas_abre.webp" 
                     alt="Comilla cierre"
-                    class='object-cover w-[30px] h-[30px] relative' />
+                    class='object-cover w-[30px] h-[30px] mb-[2rem] relative' />
 
                     <p>“He tenido el placer de trabajar con ‘Pachuco’ en el desarrollo de diversas campañas digitales para diferentes marcas...”</p>
 
                     <!-- Comillas de cierre -->
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_Comillas_cierre.webp" 
                     alt="Comilla cierre"
-                    class='object-cover w-[30px] h-[30px] relative' />
+                    class='object-cover w-[30px] h-[30px] mt-[2rem] relative' />
                 </div>
             </div>
         </div>
