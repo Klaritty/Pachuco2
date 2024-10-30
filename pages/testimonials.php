@@ -4,70 +4,81 @@
         <div class="carousel-container-testimonios flex" id="carousel-container-testimonios">
             <!-- Testimonio 1 -->
             <div class="testimonial-slide flex w-full">
-                <div class="w-full md:w-1/2">
-                    <img class=" " alt="Testimonio 1"
-                        src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_IMG.webp" />
+                <div class="w-full md:w-1/2 mb-[3rem] md:mb-0 flex flex-col items-center">
+                    <img alt="Testimonio 1"
+                        src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Clientes_Logo_Planeta.webp" 
+                        class="cliente-logo mb-4" />
+                    <p class="font-bold text-white mt-4">Jan Delgado</p>
+                    <p class="text-white">Gerente Mkt Digital</p>
+                    <p class="text-white">Grupo Planeta</p>
                 </div>
                 <div class="w-full md:w-1/2 flex flex-col items-center justify-center text-white text-right p-4">
                     <!-- Comillas de apertura -->
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_Comillas_abre.webp" 
                     alt="Comilla abre"
-                    class='object-cover w-[30px] h-[30px] mb-[2rem] relative' />
+                    class="comilla-desktop object-cover relative mb-[1rem]" />
 
-                    <p>“Nos encanta colaborar con el equipo de Pachuco, siempre listos para aceptar los desafíos que les planteamos. Son creativos, comprometidos y alineados con las necesidades digitales de nuestro mercado. Valoramos mucho su apoyo en la comunicación de nuestros libros.”</p>
+                    <p>Nos encanta colaborar con el equipo de Pachuco, siempre listos para aceptar los desafíos que les planteamos. Son creativos, comprometidos y alineados con las necesidades digitales de nuestro mercado. Valoramos mucho su apoyo en la comunicación de nuestros libros.</p>
 
                     <!-- Comillas de cierre -->
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_Comillas_cierre.webp" 
                     alt="Comilla cierre"
-                    class='object-cover w-[30px] h-[30px] mt-[2rem] relative' />
+                    class="comilla-desktop object-cover relative mt-[1rem]" />
                 </div>
             </div>
 
-            <!-- Repite el mismo patrón para Testimonios 2 y 3 -->
+            <!-- Testimonio 2 -->
             <div class="testimonial-slide flex w-full">
-                <div class="w-full md:w-1/2">
-                    <img class=" " alt="Testimonio 2"
-                        src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_IMG.webp" />
+                <div class="w-full md:w-1/2  mb-[3rem] md:mb-0 flex flex-col items-center">
+                    <img alt="Testimonio 2"
+                        src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Clientes_Logo_Latino.webp" 
+                        class="cliente-logo mb-4" />
+                    <p class="font-bold text-white mt-4">Luis Enrique Motte Morales</p>
+                    <p class="text-white">Diseñador Senior</p>
+                    <p class="text-white">Seguros La Latino</p>
                 </div>
                 <div class="w-full md:w-1/2 flex flex-col items-center justify-center text-white text-right p-4">
                     <!-- Comillas de apertura -->
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_Comillas_abre.webp" 
-                    alt="Comilla cierre"
-                    class='object-cover w-[30px] h-[30px] mb-[2rem] relative' />
+                    alt="Comilla abre"
+                    class="comilla-desktop object-cover relative mb-[1rem]" />
 
-                    <p>“Desde el primer día pudimos bajar el concepto y propuesta gráfica para nuestra marca logrando obtener muy buenos comentarios de manera interna y externa...”</p>
-
+                    <p>Desde el primer día pudimos bajar el concepto y propuesta gráfica para nuestra marca logrando obtener muy buenos comentarios de manera interna y externa. Siempre  nos han apoyado en las peticiones de proyectos y están al tanto de las tendencias o que puede funcionar para la compañía.</p>
+                    
                     <!-- Comillas de cierre -->
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_Comillas_cierre.webp" 
                     alt="Comilla cierre"
-                    class='object-cover w-[30px] h-[30px] mt-[2rem] relative' />
+                    class="comilla-desktop object-cover relative mt-[1rem]" />
                 </div>
             </div>
 
             <!-- Testimonio 3 -->
             <div class="testimonial-slide flex w-full">
-                <div class="w-full md:w-1/2">
-                    <img class=" " alt="Testimonio 3"
-                        src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_IMG.webp" />
+                <div class="w-full md:w-1/2  mb-[3rem] md:mb-0 flex flex-col items-center">
+                    <img alt="Testimonio 3"
+                        src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Clientes_Logo_Coca.webp" 
+                        class="cliente-logo mb-4" />
+                    <p class="font-bold text-white mt-4">Julieta Sánchez</p>
+                    <p class="text-white">E2E XP and Media Director</p>
+                    <p class="text-white">Ubicación de la empresa.</p>
                 </div>
                 <div class="w-full md:w-1/2 flex flex-col items-center justify-center text-white text-right p-4">
                     <!-- Comillas de apertura -->
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_Comillas_abre.webp" 
-                    alt="Comilla cierre"
-                    class='object-cover w-[30px] h-[30px] mb-[2rem] relative' />
+                    alt="Comilla abre"
+                    class="comilla-desktop object-cover relative mb-[1rem]" />
 
-                    <p>“He tenido el placer de trabajar con ‘Pachuco’ en el desarrollo de diversas campañas digitales para diferentes marcas...”</p>
+                    <p>He tenido el placer de trabajar con “Pachuco” en el desarrollo de diversas campañas digitales para diferentes marcas del portafolio de la Compañía. Pachuco ha demostrado ser un socio excelente en todos los aspectos del proceso creativo y de ejecución.</p>
 
                     <!-- Comillas de cierre -->
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Testimonial_Comillas_cierre.webp" 
                     alt="Comilla cierre"
-                    class='object-cover w-[30px] h-[30px] mt-[2rem] relative' />
+                    class="comilla-desktop object-cover relative mt-[1rem]" />
                 </div>
             </div>
         </div>
     </div>
 </section>
-
 
 <style>
     #carrusel-testimonios {
@@ -91,12 +102,15 @@
         position: relative;
     }
 
-    .carousel-container-testimonios img {
-        height: 40%;
+    .cliente-logo {
+        max-width: 170px;
+        height: auto;
+        object-fit: contain;
     }
 
-    button {
-        cursor: pointer;
+    .comilla-desktop {
+        width: 45px;
+        height: 30px;
     }
 
     @media (max-width: 768px) {
@@ -107,16 +121,25 @@
             padding: 20px 0;
         }
 
-        .testimonial-slide img {
+        .cliente-logo {
+            max-width: 160px;
             height: auto;
-            width: 100%;
-            max-height: 200px;
-            object-fit: contain;
+            margin-bottom: 1rem;
+        }
+
+        .comilla-desktop {
+            width: 35px;
+            height: 27px;
+            margin-bottom: 1rem;
         }
 
         .testimonial-slide p {
             text-align: center;
         }
+    }
+
+    button {
+        cursor: pointer;
     }
 
     .testimonial-slide img.absolute {
