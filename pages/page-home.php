@@ -53,8 +53,6 @@ Template Name: Home
         <?php include 'services.php'; ?>
         <!--brands-->
         <?php include 'brands.php'; ?>
-        <!--Testimonios-->
-        <?php include 'testimonials.php'?>
         <!--Call-->
         <?php include 'call-to-action.php'?>
         <!--Footer-->

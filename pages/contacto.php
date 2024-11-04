@@ -1,6 +1,6 @@
-<section id='contacto' class="bg-[#000] bg-cover h bg-no-repeat bg-center" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Header_IMG.webp');">
+<section id='contacto' class="bg-[#000] bg-cover h bg-no-repeat bg-center" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/Assets/Header-IMG.webp');">
   <div class="px-5 py-[2rem] lg:max-w-[1200px] lg:mx-auto">
-    <img class='w-auto h-[4rem] mb-[2rem] md:mb-[3rem]' alt='cosnthera' src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Header_Logo.webp" />
+    <img class='w-auto h-[4rem] mb-[2rem] md:mb-[3rem]' alt='cosnthera' src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Header_Logo.webp" />
     <div class="flex flex-col md:flex-row gap-[1.5rem] md:gap-[3rem] md:h-[500px]">
       <!-- Sección de textos (izquierda) -->
       <div class="md:pt-[15rem] px-[1rem] md:px-[2rem] flex flex-col mb-[1rem] md:mb-[2rem] md:w-1/2">

@@ -1,9 +1,9 @@
-<div class="bg-cover bg-center bg-no-repeat pt-[1rem] pb-[1rem]" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Footer_Fondo.webp');">
+<div class="bg-cover bg-center bg-no-repeat pt-[1rem] pb-[1rem]" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/Assets/Footer_Fondo.webp');">
     <div class="lg:max-w-[1020px] h-[6rem] flex justify-between items-center px-8 container mx-auto">
         <!-- Logo de la empresa -->
         <div class="flex items-center">
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Footer_Logo.webp" alt="Logo de la empresa" class="h-12">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Header_Logo.webp" alt="Logo de la empresa" class="h-12">
             </a>
         </div>
 

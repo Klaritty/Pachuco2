@@ -1,11 +1,15 @@
-<section id='inicio' class='bg-black relative flex items-center justify-center'>
-    <!-- Imagen de fondo -->
-    <img class='absolute w-auto h-[20.4rem] object-cover z-0' alt='consthera' 
-         src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Clientes_CirculoFondo.webp" />
+<section id='inicio' class='bg-white relative flex items-center justify-center'>
+    <!-- Imagen de fondo 1 -->
+    <img class='absolute w-auto h-[20.4rem] object-cover z-10' alt='consthera' 
+         src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Clientes-Figura.webp" />
     
-    <div class='pb-[5rem] container mx-auto relative z-10'>
+    <!-- Imagen de fondo 2 -->
+    <img class='absolute w-full h-[10.4rem] object-cover z-0' alt='clientes pleca' 
+         src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Clientes-Pleca.webp" />
+
+    <div class='pb-[5rem] container mx-auto relative z-20'>
         <div>
-            <h1 class='text-center pb-[1rem] pt-[5rem] font-Montse text-[30px] md:text-[35px] mx-auto w-[90%] mp:w-[70%] text-white uppercase'>Hemos compartido la pista de baile con ellos.</h1>
+            <h1 class='text-center font-bold pb-[1rem] pt-[5rem] font-Montse text-[30px] md:text-[35px] mx-auto w-[90%] mp:w-[70%] text-[#541388] uppercase'>Hemos compartido la pista de baile con ellos.</h1>
         </div>
             
         <!-- Carrusel -->
