@@ -22,3 +22,9 @@ function cc_mime_types($mimes)
 }
 add_filter('upload_mimes', 'cc_mime_types');
 
+function pachuco_enqueue_styles() {
+    wp_enqueue_style('tailwind', get_template_directory_uri() . '/tailwind_output.css');
+    wp_enqueue_style('form-styles', get_template_directory_uri() . '/formStyles.css');
+    wp_enqueue_style('swiper', get_template_directory_uri() . '/node_modules/swiper/swiper-bundle.min.css');
+}
+add_action('wp_enqueue_scripts', 'pachuco_enqueue_styles');
