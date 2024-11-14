@@ -36,6 +36,9 @@
 .nf-field-container {
     margin-bottom: 5px!important; /* Espacio entre campos */
 }
+.nf-after-field .nf-input-limit {
+    display: none !important;
+}
 
 
 #nf-field-6-wrap > .nf-field-elemt{
