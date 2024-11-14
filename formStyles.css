@@ -38,10 +38,8 @@
 }
 
 /* Estilo de los labels */
-.nf-field-label label {
-    font-size: 12px!important; /* Tamaño de fuente */
-    color: white!important; /* Color blanco */
-    font-family: 'Montserrat', sans-serif; /* Fuente */
+.nf-field-label {
+    display: none!important;
 }
 
 /* Ajustar margen de los campos */
