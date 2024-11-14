@@ -35,12 +35,12 @@ Template Name: Home
     </script> -->
 
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-    <link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Pachuco/tailwind_output.css">
-    <link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Pachuco/formStyles.css">
-    <link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Pachuco/node_modules/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Pachuco2/tailwind_output.css">
+    <link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Pachuco2/formStyles.css">
+    <link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Pachuco2/node_modules/swiper/swiper-bundle.min.css">
 
     <title>Pachuco</title>
-    <link rel="icon" href="<?php echo get_site_url(); ?>/wp-content/themes/Pachuco/Assetss/Landing/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="<?php echo get_site_url(); ?>/wp-content/themes/Pachuco2/Assetss/Landing/favicon.ico" type="image/x-icon" />
     
     <?php wp_head(); ?>
 </head>
