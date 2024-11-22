@@ -8,7 +8,7 @@
 /* Estilo de los inputs: Nombre, Email, Número, Empresa */
 .nf-form-content input.ninja-forms-field {
     height: 50px!important; /* Altura de los inputs */
-    background-color: #000000!important; /* Fondo negro */
+    background-color: rgba(0, 0, 0, 0.6);!important; /* Fondo negro */
     color: white!important; /* Texto blanco */
     border: 0.5px solid #ffdd96!important; /* Borde blanco */
     border-radius: 10px!important; /* Bordes ligeramente redondeados */
@@ -38,10 +38,8 @@
 }
 
 /* Estilo de los labels */
-.nf-field-label label {
-    font-size: 12px!important; /* Tamaño de fuente */
-    color: white!important; /* Color blanco */
-    font-family: 'Montserrat', sans-serif; /* Fuente */
+.nf-field-label {
+    display: none!important;
 }
 
 /* Ajustar margen de los campos */

@@ -39,7 +39,6 @@ Template Name: Home
     <link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Pachuco/formStyles.css">
     <link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Pachuco/node_modules/swiper/swiper-bundle.min.css">
 
-    
     <title>Pachuco</title>
     <link rel="icon" href="<?php echo get_site_url(); ?>/wp-content/themes/Pachuco/Assetss/Landing/favicon.ico" type="image/x-icon" />
     

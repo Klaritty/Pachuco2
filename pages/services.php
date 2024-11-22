@@ -1,5 +1,5 @@
-<section id='servicios' class='pt-[3rem] bg-[#fff] min-h-screen'>
-    <h1 class='titulos font-bold font-Montse text-[30px] md:text-[40px] pb-[3rem] text-center'>
+<section id='servicios' class='pt-[2rem] px-4 2xl:px-0  bg-[#fff] min-h-screen'>
+    <h1 class='titulos font-bold font-Montse text-[30px] md:text-[40px] pb-[1rem] text-center'>
         Servicios
     </h1>
     <div class="lg:max-w-[1020px] grid grid-cols-1 lg:grid-cols-7 gap-4 lg:container lg:mx-auto">
@@ -58,7 +58,7 @@
         <!-- lg:card--4 -->
         <div class="lg:card flex flex-col items-center">
             <div class='relative w-full h-[300px] lg:h-[350px]'>
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Servicios_IMG-Hospytra.webp" 
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Servicios_IMG-HospyTra.webp"
                     alt="Convenciones"
                     class='object-cover w-full h-full' />
                 <h3 class="absolute bottom-3 w-full text-[#fff] font-Montse text-[13px] font-semibold p-2 text-left uppercase">
