@@ -5,7 +5,6 @@ Template Name: Home
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
-
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,26 +21,12 @@ Template Name: Home
     <meta name="twitter:description" content="Espacio psicoterapéutico y holístico en donde te reconciliarás con el pasado y el presente para equilibrar tu futuro. Terapia presencial y en línea.">
 
     <link rel="canonical" href="<?php echo get_permalink(); ?>">
-
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-36VC4346Y2"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-36VC4346Y2');
-    </script> -->
-
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Pachuco2/tailwind_output.css">
     <link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Pachuco2/formStyles.css">
     <link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Pachuco2/node_modules/swiper/swiper-bundle.min.css">
-
     <title>Pachuco</title>
     <link rel="icon" href="<?php echo get_site_url(); ?>/wp-content/themes/Pachuco2/Assetss/Landing/favicon.ico" type="image/x-icon" />
-    
     <?php wp_head(); ?>
 </head>
 
@@ -49,6 +34,8 @@ Template Name: Home
     <main id="home">
         <!--contacto-->
         <?php include 'contacto.php'?>
+        <!--description-->
+        <?php include 'description.php'?>
         <!--Services-->
         <?php include 'services.php'; ?>
         <!--brands-->

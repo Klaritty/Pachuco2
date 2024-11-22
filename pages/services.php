@@ -1,5 +1,5 @@
-<section id='servicios' class='pt-[3rem] bg-[#fff] min-h-screen'>
-    <h1 class='titulos font-bold font-Montse text-[30px] md:text-[40px] pb-[3rem] text-center'>
+<section id='servicios' class='pt-[2rem] px-4 2xl:px-0  bg-[#fff] min-h-screen'>
+    <h1 class='titulos font-bold font-Montse text-[30px] md:text-[40px] pb-[1rem] text-center'>
         Servicios
     </h1>
     <div class="lg:max-w-[1020px] grid grid-cols-1 lg:grid-cols-7 gap-4 lg:container lg:mx-auto">
