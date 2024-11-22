@@ -1,6 +1,6 @@
 <section id='inicio' class='bg-white  relative flex items-center justify-center'>
     <!-- Imagen de fondo 1 -->
-    <img class='absolute w-auto h-[20.4rem] object-cover z-10' alt='consthera' 
+    <img class='absolute w-auto h-[20.4rem] object-cover z-10' alt='consthera'
          src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Clientes-Figura.webp" />
     <!-- Imagen de fondo 2 -->
     <img class='absolute w-full h-[10.4rem] object-cover z-0' alt='clientes pleca'
