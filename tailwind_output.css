@@ -620,6 +620,10 @@ video {
   top: 3rem;
 }
 
+.right-0 {
+  right: 0px;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -798,6 +802,22 @@ video {
   width: 100%;
 }
 
+.w-3\/4 {
+  width: 75%;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
+.w-1\/5 {
+  width: 20%;
+}
+
 .max-w-4xl {
   max-width: 56rem;
 }
@@ -823,6 +843,10 @@ video {
   align-items: center;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -841,6 +865,14 @@ video {
 
 .gap-\[3rem\] {
   gap: 3rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
@@ -1102,6 +1134,10 @@ video {
   line-height: 1.75rem;
 }
 
+.text-\[5px\] {
+  font-size: 5px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1161,6 +1197,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[white\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .no-underline {
   text-decoration-line: none;
 }
@@ -1212,8 +1253,20 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:w-1\/5 {
+    width: 20%;
+  }
+
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:gap-12 {
+    gap: 3rem;
+  }
+
+  .sm\:gap-20 {
+    gap: 5rem;
   }
 
   .sm\:p-2 {
@@ -1231,6 +1284,10 @@ video {
 
   .sm\:text-\[25px\] {
     font-size: 25px;
+  }
+
+  .sm\:text-\[10px\] {
+    font-size: 10px;
   }
 }
 
@@ -1263,8 +1320,8 @@ video {
     width: 50%;
   }
 
-  .md\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .md\:w-1\/5 {
+    width: 20%;
   }
 
   .md\:flex-row {
@@ -1275,8 +1332,8 @@ video {
     gap: 3rem;
   }
 
-  .md\:p-2 {
-    padding: 0.5rem;
+  .md\:gap-20 {
+    gap: 5rem;
   }
 
   .md\:px-5 {
@@ -1362,24 +1419,20 @@ video {
     max-width: 1020px;
   }
 
-  .lg\:max-w-\[1080px\] {
-    max-width: 1080px;
+  .lg\:max-w-\[1090px\] {
+    max-width: 1090px;
   }
 
   .lg\:max-w-\[1200px\] {
     max-width: 1200px;
   }
 
-  .lg\:max-w-\[1090px\] {
-    max-width: 1090px;
-  }
-
-  .lg\:max-w-\[2000px\] {
-    max-width: 2000px;
-  }
-
   .lg\:grid-cols-7 {
     grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+
+  .lg\:gap-20 {
+    gap: 5rem;
   }
 }
 

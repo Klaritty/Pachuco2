@@ -8,15 +8,27 @@
         </div>
 
         <!-- Redes sociales -->
-        <div class="flex justify-between w-1/2">
-            <a href="http://www.pachucodigital.com" target="_blank" class="text-white">
+        <div class="flex row gap-5 lg:gap-20 w-3/5 justify-end">
+            <div class="flex flex-col justify-center gap-3">
+              <a href="https://puntodeencuentro.events/" target="_blank" class="flex justify-center">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Footer_Icon_Web.webp" alt="web" class="h-8">
+              </a>
+              <a class="text-[white] text-center text-[5px] sm:text-[10px] no-underline" href="https://puntodeencuentro.events/">
+                puntodeencuentro.events
+              </a>
+            </div>
+
+          <div class="flex flex-col justify-center gap-3">
+            <a href="https://www.instagram.com/puntodeencuentroevents/" target="_blank" class="flex justify-center">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Footer_Icon_Instagram.webp" alt="Instagram" class="h-8">
             </a>
-            <a href="https://www.instagram.com/pachucolens/" target="_blank" class="text-white">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Footer_Icon_Instagram.webp" alt="Instagram" class="h-8">
+            <a class="text-[white] text-center text-[5px] sm:text-[10px] no-underline" href="https://www.instagram.com/puntodeencuentroevents/">
+              @puntodeencuentroevents
             </a>
-            <a href="https://www.linkedin.com/company/pachuco-digital/mycompany/" target="_blank" class="text-white">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Footer_Icon_Linkedin.webp" alt="LinkedIn" class="h-8">
+          </div>
+
+            <a href="https://www.linkedin.com/company/pachuco-digital/mycompany/ " target="_blank" class="text-white">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Footer_Icon_Linkedin.webp" alt="LinkedIn" class="h-8">
             </a>
         </div>
     </div>
