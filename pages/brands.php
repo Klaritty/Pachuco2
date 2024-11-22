@@ -12,25 +12,25 @@
         <div id="carrusel" class="relative w-full overflow-hidden pt-[3rem] mb-[7rem]">
             <div class="carousel-container flex" id="carousel-container">
                 <img class='h-auto max-h-[3rem] object-contain mx-4 img-grande' alt='Adidas'
-                     src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Clientes_Logo_Adidas.webp" />
+                     src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Clientes_Logo_Adidas.webp" />
                 <img class='h-auto max-h-[3rem] object-contain mx-4 img-grande' alt='Bayer' 
-                     src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Clientes_Logo_Bayer.webp" />
+                     src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Clientes_Logo_Bayer.webp" />
                 <img class='h-auto max-h-[3rem] object-contain mx-4 img-grande' alt='Coca' 
-                     src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Clientes_Logo_Coca.webp" />
+                     src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Clientes_Logo_Coca.webp" />
                 <img class='h-auto max-h-[2.5rem] object-contain mx-4 img-pequeña' alt='DHL' 
-                     src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Clientes_Logo_DHL.webp" />
+                     src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Clientes_Logo_DHL.webp" />
                 <img class='h-auto max-h-[3rem] object-contain mx-4 img-grande' alt='Dportenis' 
-                     src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Clientes_Logo_Dportenis.webp" />
+                     src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Clientes_Logo_Dportenis.webp" />
                 <img class='h-auto max-h-[3rem] object-contain mx-4 img-grande' alt='Google' 
-                     src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Clientes_Logo_Google.webp" />
+                     src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Clientes_Logo_Google.webp" />
                 <img class='h-auto max-h-[3rem] object-contain mx-4 img-grande' alt='NMDP' 
-                     src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Clientes_Logo_NMDP.webp" />
+                     src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Clientes_Logo_NMDP.webp" />
                 <img class='h-auto max-h-[3rem] object-contain mx-4 img-grande' alt='Planeta' 
-                     src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Clientes_Logo_Planeta.webp" />
+                     src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Clientes_Logo_Planeta.webp" />
                 <img class='h-auto max-h-[3rem] object-contain mx-4 img-grande' alt='PPG' 
-                     src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Clientes_Logo_PPG.webp" />
+                     src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Clientes_Logo_PPG.webp" />
                 <img class='h-auto max-h-[3rem] object-contain mx-4 img-grande' alt='Solera' 
-                     src="<?php echo get_stylesheet_directory_uri(); ?>/Assetss/Landing/Clientes_Logo_Solera.webp" />
+                     src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Clientes_Logo_Solera.webp" />
             </div>
         </div>
     </div>

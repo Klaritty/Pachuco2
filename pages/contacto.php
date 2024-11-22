@@ -1,9 +1,8 @@
 <section id='contacto'
-   class="bg-[#000] h-screen bg-cover bg-no-repeat bg-center"
-   style="background: linear-gradient(to bottom, transparent 100%, white 100%),
-   url('<?php echo get_stylesheet_directory_uri(); ?>/Assets/Header-IMG.webp');
-   background-size: cover;
-   background-position: center;">
+         class="bg-[#000] h-screen bg-no-repeat"
+         style="background: url('<?php echo get_stylesheet_directory_uri(); ?>/Assets/Header-IMG.webp');
+             background-size: cover;
+             background-position: center;">
   <div class="px-4 pt-[2rem] lg:max-w-[1200px] lg:mx-auto">
     <img class='w-auto h-[4rem] mb-[2rem] md:mb-[3rem]' alt='cosnthera' src="<?php echo get_stylesheet_directory_uri(); ?>/Assets/Header_Logo.webp" />
     <div class="flex flex-col md:flex-row gap-[1.5rem] md:gap-[3rem]">

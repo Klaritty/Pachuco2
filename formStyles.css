@@ -8,27 +8,17 @@
 /* Estilo de los inputs: Nombre, Email, Número, Empresa */
 .nf-form-content input.ninja-forms-field {
     height: 50px!important; /* Altura de los inputs */
-    background-color: rgba(0, 0, 0, 0.6);!important; /* Fondo negro */
-    color: white!important; /* Texto blanco */
     border: 0.5px solid #ffdd96!important; /* Borde blanco */
     border-radius: 10px!important; /* Bordes ligeramente redondeados */
     margin-bottom: 10px!important; /* Espacio inferior */
     padding: 10px!important; /* Padding interno */
     font-size: 16px!important; /* Texto más grande */
     width: 100%!important; /* Ancho completo */
-    font-family: 'Montserrat', sans-serif;
 }
 
-
-
-/* Estilo de input: mensaje */
-#nf-field-3 {
-    border-radius: 15px!important; /* Bordes ligeramente redondeados */
-    padding: 10px!important; /* Aumentar padding */
-    color: white!important; /* Texto blanco */
-    background-color: #000000!important; /* Fondo negro */
-    margin-bottom: 20px!important; /* Espacio inferior */
-    border: 1px solid white!important; /* Borde blanco */
+.nf-field-element input {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    color: white !important; /* Texto blanco */
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -45,6 +35,9 @@
 /* Ajustar margen de los campos */
 .nf-field-container {
     margin-bottom: 5px!important; /* Espacio entre campos */
+}
+.nf-after-field .nf-input-limit {
+    display: none !important;
 }
 
 
@@ -86,20 +79,18 @@
     text-align: center; /* Asegurar el centrado del texto */
 }
 
-
-
 /* Estilo del checkbox */
 #nf-field-7 {
-    display: none; 
+    display: none;
     margin-bottom: 1rem;
 }
 
 .checkbox-container.label-right label::before {
-    content: ""; 
+    content: "";
     padding-left: 0.4rem;
-    top: 100%; 
-    width: 23px; 
-    height: 23px; 
+    top: 100%;
+    width: 23px;
+    height: 23px;
     color: white !important;
     font-size: medium !important;
     font-weight: 400 !important;
@@ -107,14 +98,14 @@
 }
 
 .checkbox-container.label-right label::after {
-    content: ""; 
-   margin-bottom: 1rem;
-    top: 50%; 
+    content: "";
+    margin-bottom: 1rem;
+    top: 50%;
     width: 23px !important;
-    height: 23px !important; 
-    border: 2px solid #6231af !important; 
-    border-radius: 5px; 
-    background-color: #6231af!important; 
+    height: 23px !important;
+    border: 2px solid #6231af !important;
+    border-radius: 5px;
+    background-color: #6231af!important;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -122,11 +113,11 @@
 
 /* Ajustar el símbolo de requerido */
 .ninja-forms-req-symbol {
-    display: none; 
+    display: none;
 }
 /* Ocultar símbolo de campo requerido */
 .ninja-forms-req-symbol {
-    display: none; 
+    display: none;
 }
 
 /* Ocultar título del formulario */
@@ -143,45 +134,54 @@
     display: none!important; /* Ocultar mensaje de error */
 }
 
-/* Ajustar el símbolo de requerido 
+/* Ajustar el símbolo de requerido
     .nf-pass.field-wrap .nf-field-element:after {
-        display: none!important; 
+        display: none!important;
     }
         */
 
 /* Estilo del select */
 
 .nf-form-content .list-select-wrap .nf-field-element {
-    background: white; 
-    border-radius: 10px; 
+    background: white;
+    border-radius: 10px;
     margin-bottom: 1rem;
 }
 
 .nf-form-content .list-select-wrap .nf-field-element select {
-    background: transparent; 
-    border-radius: 10px; 
-    color: #000; 
-    padding: 10px; 
+    background: transparent;
+    border-radius: 10px;
+    color: #000;
+    padding: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
 
 
 .nf-form-content .list-select-wrap .nf-field-element > div {
-    background: transparent; 
-    border: none; 
+    background: transparent;
+    border: none;
 }
 
 
 .nf-form-content .list-select-wrap .nf-field-element input:not([type=button]),
 .nf-form-content .list-select-wrap .nf-field-element textarea {
-    background: transparent; 
-    border-radius: 0; 
-    color: #787878; 
-    transition: all .5s; 
+    background: transparent;
+    border-radius: 0;
+    color: #787878;
+    transition: all .5s;
 }
 
 
+.nf-form-content .list-select-wrap .nf-field-element > div {
+    background: transparent !important;
+    border: none !important;
+}
+
+.nf-form-content .list-select-wrap .nf-field-element div {
+    background: transparent;
+    border: none;
+}
 .nf-form-content .list-select-wrap .nf-field-element > div {
     background: transparent !important; 
     border: none !important; 
