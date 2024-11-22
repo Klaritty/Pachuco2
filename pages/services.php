@@ -1,8 +1,8 @@
-<section id='servicios' class='pt-[2rem] px-4 2xl:px-0  bg-[#fff] min-h-screen'>
+<section id='servicios' class='pt-[2rem] px-4 2xl:px-0  bg-[#fff]'>
     <h1 class='titulos font-bold font-Montse text-[30px] md:text-[40px] pb-[1rem] text-center'>
         Servicios
     </h1>
-    <div class="lg:max-w-[1020px] grid grid-cols-1 lg:grid-cols-7 gap-4 lg:container lg:mx-auto">
+    <div class="lg:max-w-[1090px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-7 gap-4 lg:container lg:mx-auto">
 
         <!-- lg:card--1 -->
         <div class="lg:card flex flex-col items-center">
@@ -14,7 +14,7 @@
                     Eventos corporativos
                 </h3>
             </div>
-            <div class='text-left p-4 flex flex-col h-full justify-between'> <!-- Cambiado a flex -->
+            <div class='text-left p-4 sm:p-2 flex flex-col h-full justify-between'> <!-- Cambiado a flex -->
                 <p class="text-[#333333] font-Montse text-[12px] leading-tight">
                     Contamos con lo necesario para cubrir todas las necesidades para estos eventos, que pueden ser: Fiestas de Fin de Año, Town Halls, Entrenamientos, Eventos deportivos, Eventos Empresariales, etc.
                 </p>
